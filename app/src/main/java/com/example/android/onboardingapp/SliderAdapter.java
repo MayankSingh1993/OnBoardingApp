@@ -23,14 +23,15 @@ public class SliderAdapter extends PagerAdapter {
     R.drawable.sleep_icon};
     public String[] slide_headings={
             "EAT",
-            "SLEEP",
-            "CODE"
+            "CODE",
+            "SLEEP"
 
     };
     public String[] slide_descs={
             "always keep yourself full",
-            "take a good nap",
-            "Code as much as you can"
+            "Code as much as you can",
+            "take a good nap"
+
     };
     @Override
     public int getCount() {
