@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <ImageView
@@ -20,7 +20,7 @@
         android:layout_below="@+id/slide_image"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:text="HEADING"
+        android:text="@string/slide_heading"
         android:textColor="#FFFFFF"
         android:textSize="20sp" />
 
@@ -33,7 +33,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:padding="35dp"
-        android:text="Your Content Info goes here"
+        android:text="@string/slide_description"
         android:textColor="#CCCCCC"
         android:textSize="16sp" />
 </RelativeLayout>

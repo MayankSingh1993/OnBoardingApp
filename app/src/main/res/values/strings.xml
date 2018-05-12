@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">OnBoardingApp</string>
+    <string name="slide_description">Your Content Info goes here</string>
+    <string name="slide_heading">HEADING</string>
 </resources>
